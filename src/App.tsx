@@ -17,7 +17,7 @@ const App: React.FC = () => {
   const [currentTab, setCurrentTab] = useState<string>("");
   const [currentInstanceIndex, setCurrentInstanceIndex] = useState<number>(0);
   const [animationClass, setAnimationClass] = useState<string>("opacity-0");
-  const prevCntxIdRef = useRef<number | null>(null);
+  const prevCntxIdRef = useRef<number | undefined>(undefined);
 
   // Load default data on mount
   useEffect(() => {
