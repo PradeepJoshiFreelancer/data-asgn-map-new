@@ -1,3 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+    /* src/index.css or src/main.css */
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
