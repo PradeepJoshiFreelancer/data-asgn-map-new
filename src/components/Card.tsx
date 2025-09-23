@@ -2,13 +2,18 @@ import React from "react";
 
 interface CardProps {
   children: React.ReactNode;
-  animationClass?: string; // New prop for animation style
+  animationClass?: string; // add this
+  className?: string;
 }
 
-const Card: React.FC<CardProps> = ({ children, className = "" }) => {
+const Card: React.FC<CardProps> = ({
+  children,
+  animationClass = "",
+  className = "",
+}) => {
   return (
     <div
-      className={`border rounded-xl shadow-lg bg-white w-full max-w-screen-xl mx-auto p-6 ${className}`}
+      className={`border rounded-xl shadow-lg bg-white w-full max-w-7xl mx-auto p-8 ${animationClass} ${className}`}
     >
       {children}
     </div>
