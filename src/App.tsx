@@ -158,7 +158,10 @@ const App: React.FC = () => {
                   Cntx-Id: {currentItem["Cntx-Id"] ?? "N/A"}
                 </h3>
                 <div className="max-h-96 overflow-auto rounded bg-indigo-50 p-4">
-                  <JsonDisplay data={currentItem} />
+                  <JsonDisplay
+                    data={filteredItems}
+                    currentInstanceIndex={currentInstanceIndex}
+                  />
                 </div>
               </div>
             </>

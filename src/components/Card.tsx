@@ -5,10 +5,10 @@ interface CardProps {
   animationClass?: string; // New prop for animation style
 }
 
-const Card: React.FC<CardProps> = ({ children, animationClass = "" }) => {
+const Card: React.FC<CardProps> = ({ children, className = "" }) => {
   return (
     <div
-      className={`border rounded-xl shadow-lg p-6 bg-white w-full max-w-4xl mx-auto transition-transform duration-500 ease-in-out ${animationClass}`}
+      className={`border rounded-xl shadow-lg bg-white w-full max-w-screen-xl mx-auto p-6 ${className}`}
     >
       {children}
     </div>
