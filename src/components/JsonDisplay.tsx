@@ -1,9 +1,13 @@
 import React from "react";
+import Button from "./Button";
 
 interface JsonDisplayProps {
-  data: any[];
+  data: any[]; // entire filtered data list for current tab
   currentInstanceIndex: number;
+  setCurrentInstanceIndex: React.Dispatch<React.SetStateAction<number>>;
+  onBack: () => void;
 }
+console.log("Inside JsonDisplay component");
 
 const backgroundColors = [
   "bg-purple-100",
@@ -14,9 +18,11 @@ const backgroundColors = [
   "bg-pink-100",
 ];
 
+// Helper to check if primitive type
 const isPrimitive = (val: any) =>
   val === null || ["string", "number", "boolean"].includes(typeof val);
 
+// Recursively collects keys from nested objects
 const collectKeys = (dataArray: Array<any>): string[] => {
   const keysSet = new Set<string>();
 
@@ -38,6 +44,7 @@ const collectKeys = (dataArray: Array<any>): string[] => {
   return Array.from(keysSet);
 };
 
+// Retrieve value for nested key (dot separated)
 const getValueByKey = (data: any, key: string): any => {
   if (!data) return null;
   const keys = key.split(".");
@@ -52,39 +59,13 @@ const getValueByKey = (data: any, key: string): any => {
   return current;
 };
 
-// Deep equality check for values (primitive or object)
-const deepEqual = (a: any, b: any): boolean => {
-  if (a === b) return true;
-  if (a == null || b == null) return false;
-  if (typeof a !== typeof b) return false;
-  if (isPrimitive(a) || isPrimitive(b)) return a === b;
-
-  if (Array.isArray(a) && Array.isArray(b)) {
-    if (a.length !== b.length) return false;
-    for (let i = 0; i < a.length; i++) {
-      if (!deepEqual(a[i], b[i])) return false;
-    }
-    return true;
-  }
-
-  if (typeof a === "object" && typeof b === "object") {
-    const keysA = Object.keys(a);
-    const keysB = Object.keys(b);
-    if (keysA.length !== keysB.length) return false;
-    for (const key of keysA) {
-      if (!deepEqual(a[key], b[key])) return false;
-    }
-    return true;
-  }
-
-  return false;
-};
-
+// Renders value recursively with colored backgrounds for nested objects
 const renderValue = (value: any, level = 0): React.ReactNode => {
   if (value === null || value === undefined)
     return <span className="text-gray-400">No Data</span>;
   if (isPrimitive(value)) return <span>{String(value)}</span>;
 
+  // For objects or arrays, recursively render keys and values with indentation and background color
   if (Array.isArray(value)) {
     return (
       <div
@@ -130,6 +111,7 @@ const renderValue = (value: any, level = 0): React.ReactNode => {
 const JsonDisplay: React.FC<JsonDisplayProps> = ({
   data,
   currentInstanceIndex,
+  setCurrentInstanceIndex,
 }) => {
   const prevInstance =
     currentInstanceIndex > 0 ? data[currentInstanceIndex - 1] : null;
@@ -143,56 +125,76 @@ const JsonDisplay: React.FC<JsonDisplayProps> = ({
 
   if (allKeys.length === 0) return null;
 
+  // Navigation handlers for instances inside tab
+  const handelPrevClick = () => {
+    setCurrentInstanceIndex((idx) => Math.max(idx - 1, 0));
+  };
+
+  const handelNextClick = () => {
+    setCurrentInstanceIndex((idx) => Math.min(idx + 1, data.length - 1));
+  };
+
   return (
-    <div className="overflow-auto max-w-full">
-      <table className="table-fixed border-collapse border border-gray-300 w-full text-sm min-w-full">
-        <thead>
-          <tr className="bg-indigo-100 sticky top-0">
-            <th className="w-1/4 border border-gray-300 px-3 py-1 sticky left-0 bg-indigo-100 z-10 text-left min-w-[200px]">
-              Key
-            </th>
-            <th className="w-1/4 border border-gray-300 px-3 py-1 text-left min-w-[300px] break-words">
-              Previous
-            </th>
-            <th className="w-1/4 border border-gray-300 px-3 py-1 text-left min-w-[300px] break-words">
-              Current
-            </th>
-            <th className="w-1/4 border border-gray-300 px-3 py-1 text-left min-w-[300px] break-words">
-              Next
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {allKeys.map((key) => {
-            const prevValue = getValueByKey(prevInstance, key);
-            const currentValue = getValueByKey(currentInstance, key);
+    <div className="p-4">
+      <div className="flex justify-between mb-6">
+        <Button
+          variant="secondary"
+          onClick={handelPrevClick}
+          disabled={currentInstanceIndex === 0}
+        >
+          Previous
+        </Button>
 
-            // Determine if value changed compared to prev instance
-            const changed = !deepEqual(prevValue, currentValue);
+        <span className="text-indigo-600 font-semibold text-lg self-center">
+          {currentInstanceIndex + 1} of {data.length}
+        </span>
 
-            return (
+        <Button
+          variant="primary"
+          onClick={handelNextClick}
+          disabled={currentInstanceIndex === data.length - 1}
+        >
+          Next
+        </Button>
+      </div>
+      <div className="overflow-auto max-w-full">
+        <table className="table-fixed border-collapse border border-gray-300 w-full text-sm min-w-full">
+          <thead>
+            <tr className="bg-indigo-100 sticky top-0">
+              <th className="w-1/4 border border-gray-300 px-3 py-1 sticky left-0 bg-indigo-100 z-10 text-left min-w-[200px]">
+                Key
+              </th>
+              <th className="w-1/4 border border-gray-300 px-3 py-1 text-left min-w-[300px] break-words">
+                Previous
+              </th>
+              <th className="w-1/4 border border-gray-300 px-3 py-1 text-left min-w-[300px] break-words">
+                Current
+              </th>
+              <th className="w-1/4 border border-gray-300 px-3 py-1 text-left min-w-[300px] break-words">
+                Next
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {allKeys.map((key) => (
               <tr key={key} className="hover:bg-indigo-50 align-top">
                 <td className="border border-gray-300 px-3 py-1 font-semibold sticky left-0 bg-white z-5 max-w-xs break-words min-w-[200px]">
                   {key.split(".").slice(-1)[0]}
                 </td>
                 <td className="border border-gray-300 px-3 py-1 max-w-xs break-words min-w-[300px]">
-                  {renderValue(prevValue)}
+                  {renderValue(getValueByKey(prevInstance, key))}
                 </td>
-                <td
-                  className={`border border-gray-300 px-3 py-1 max-w-xs break-words min-w-[300px] ${
-                    changed ? "bg-yellow-200" : ""
-                  }`}
-                >
-                  {renderValue(currentValue)}
+                <td className="border border-gray-300 px-3 py-1 max-w-xs break-words min-w-[300px] text-cyan-600">
+                  {renderValue(getValueByKey(currentInstance, key))}
                 </td>
                 <td className="border border-gray-300 px-3 py-1 max-w-xs break-words min-w-[300px]">
                   {renderValue(getValueByKey(nextInstance, key))}
                 </td>
               </tr>
-            );
-          })}
-        </tbody>
-      </table>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };

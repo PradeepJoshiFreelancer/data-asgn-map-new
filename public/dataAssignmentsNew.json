@@ -1,0 +1,3202 @@
+{
+  "dataAssignments": [
+    {
+      "WS-PLAN-ID": 3500,
+      "WS-PLAN-BRND-CD": "MDCL",
+      "WS-PLAN-LDSC-TX": "Medical Plan",
+      "WS-TRNS-ID": 4030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4001,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 3500,
+      "WS-PLAN-BRND-CD": "MDCL",
+      "WS-PLAN-LDSC-TX": "Medical Plan",
+      "WS-TRNS-ID": 4030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4001,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 3500,
+      "WS-PLAN-BRND-CD": "MDCL",
+      "WS-PLAN-LDSC-TX": "Medical Plan",
+      "WS-TRNS-ID": 4030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4001,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 3500,
+      "WS-PLAN-BRND-CD": "MDCL",
+      "WS-PLAN-LDSC-TX": "Medical Plan",
+      "WS-TRNS-ID": 4030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4002,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 3500,
+      "WS-PLAN-BRND-CD": "MDCL",
+      "WS-PLAN-LDSC-TX": "Medical Plan",
+      "WS-TRNS-ID": 4030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4004,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 3500,
+      "WS-PLAN-BRND-CD": "MDCL",
+      "WS-PLAN-LDSC-TX": "Medical Plan",
+      "WS-TRNS-ID": 4030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4005,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 3500,
+      "WS-PLAN-BRND-CD": "MDCL",
+      "WS-PLAN-LDSC-TX": "Medical Plan",
+      "WS-TRNS-ID": 4040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4001,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 3500,
+      "WS-PLAN-BRND-CD": "MDCL",
+      "WS-PLAN-LDSC-TX": "Medical Plan",
+      "WS-TRNS-ID": 4040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4002,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 3500,
+      "WS-PLAN-BRND-CD": "MDCL",
+      "WS-PLAN-LDSC-TX": "Medical Plan",
+      "WS-TRNS-ID": 4040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4004,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 3500,
+      "WS-PLAN-BRND-CD": "MDCL",
+      "WS-PLAN-LDSC-TX": "Medical Plan",
+      "WS-TRNS-ID": 4040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4005,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 1000,
+      "WS-PLAN-BRND-CD": "DNTL",
+      "WS-PLAN-LDSC-TX": "Dental Plan",
+      "WS-TRNS-ID": 1030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4001,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 1000,
+      "WS-PLAN-BRND-CD": "DNTL",
+      "WS-PLAN-LDSC-TX": "Dental Plan",
+      "WS-TRNS-ID": 1030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4002,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 1000,
+      "WS-PLAN-BRND-CD": "DNTL",
+      "WS-PLAN-LDSC-TX": "Dental Plan",
+      "WS-TRNS-ID": 1030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4004,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 1000,
+      "WS-PLAN-BRND-CD": "DNTL",
+      "WS-PLAN-LDSC-TX": "Dental Plan",
+      "WS-TRNS-ID": 1030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4005,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 1000,
+      "WS-PLAN-BRND-CD": "DNTL",
+      "WS-PLAN-LDSC-TX": "Dental Plan",
+      "WS-TRNS-ID": 1040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4001,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 1000,
+      "WS-PLAN-BRND-CD": "DNTL",
+      "WS-PLAN-LDSC-TX": "Dental Plan",
+      "WS-TRNS-ID": 1040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4002,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 1000,
+      "WS-PLAN-BRND-CD": "DNTL",
+      "WS-PLAN-LDSC-TX": "Dental Plan",
+      "WS-TRNS-ID": 1040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4004,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 1000,
+      "WS-PLAN-BRND-CD": "DNTL",
+      "WS-PLAN-LDSC-TX": "Dental Plan",
+      "WS-TRNS-ID": 1040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4005,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 2000,
+      "WS-PLAN-BRND-CD": "VSN",
+      "WS-PLAN-LDSC-TX": "Vision Plan",
+      "WS-TRNS-ID": 2030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4001,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 2000,
+      "WS-PLAN-BRND-CD": "VSN",
+      "WS-PLAN-LDSC-TX": "Vision Plan",
+      "WS-TRNS-ID": 2030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4002,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 2000,
+      "WS-PLAN-BRND-CD": "VSN",
+      "WS-PLAN-LDSC-TX": "Vision Plan",
+      "WS-TRNS-ID": 2030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4004,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 2000,
+      "WS-PLAN-BRND-CD": "VSN",
+      "WS-PLAN-LDSC-TX": "Vision Plan",
+      "WS-TRNS-ID": 2030,
+      "WS-TRNS-TYPE": "4391",
+      "WS-CNTX-ID": 4005,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 2000,
+      "WS-PLAN-BRND-CD": "VSN",
+      "WS-PLAN-LDSC-TX": "Vision Plan",
+      "WS-TRNS-ID": 2040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4001,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 2000,
+      "WS-PLAN-BRND-CD": "VSN",
+      "WS-PLAN-LDSC-TX": "Vision Plan",
+      "WS-TRNS-ID": 2040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4002,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 2000,
+      "WS-PLAN-BRND-CD": "VSN",
+      "WS-PLAN-LDSC-TX": "Vision Plan",
+      "WS-TRNS-ID": 2040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4004,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    },
+    {
+      "WS-PLAN-ID": 2000,
+      "WS-PLAN-BRND-CD": "VSN",
+      "WS-PLAN-LDSC-TX": "Vision Plan",
+      "WS-TRNS-ID": 2040,
+      "WS-TRNS-TYPE": "0581",
+      "WS-CNTX-ID": 4005,
+      "WS-DATA-ASGN-ID": 1100002,
+      "WS-DATA-ASGN-MDL-ID": "BA4BJ350",
+      "WS-DATA-ASGN-RTRN-CD": "Y",
+      "WS-DATA-ASGN-RSN-TX": "Successful Assignment",
+      "WS-PRSN-INTN-ID": 500029,
+      "WS-Prsn-Opt-EfBegDt": "2026-01-01",
+      "WS-Elec-Opt-Lbl-Cd": "OPT001",
+      "WS-Elec-Side-Fund-At": 100.0,
+      "WS-Elec-Opt-Tax-Cd": "P",
+      "WS-Elec-Opt-Rspn-Cd": "Y",
+      "WS-Actl-Opt-Id": 11661,
+      "WS-Actl-Opt-Lbl-Cd": "ACT001",
+      "WS-Actl-Opt-Rspn-Cd": "N",
+      "WS-Actl-Side-Fund-At": 200.0,
+      "WS-Actl-Opt-Tax-Cd": "P",
+      "WS-Low-Cost-Pr-At": 50.0,
+      "WS-Dtbs-Stat-Cd": "U",
+      "WS-Calc-DtBs-Stat-Cd": "E",
+      "WS-Elec-Mthd-Cd": "EM1",
+      "WS-Elec-Part-Cv-Cd": "A",
+      "WS-Actl-Part-Cv-Cd": "B",
+      "WS-Prsn-SA-EfBegDt": "2026-01-01",
+      "WS-SA-Id": 200,
+      "WS-RPP-At": 0.0,
+      "WS-SA-Elec-Mthd-Cd": "EM2",
+      "WS-YTD-Ctrb-At": 0.0,
+      "WS-Carr-Prcs-Id": 10,
+      "WS-SACalcDtBs-Stat-Cd": "E",
+      "WS-Pysc-Id": 15,
+      "WS-Trns-Rfrs-Cd": "Y",
+      "WS-HSA-Mntn-Ind-Cd": "N",
+      "WS-Syst-PrsnSAEfBegDt": "2026-01-01",
+      "WS-Top-Sugg-Type-Cd": "TYPECODE",
+      "WS-Top-Sugg-Scor-Vl": 0.0,
+      "WS-Top-Sugg-TotCtrbAt": 0.0,
+      "WS-MDL-TYPE": "A",
+
+      "WS-CvCat-Ct": 2,
+      "WS-CvCat": [
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-ID": 101,
+          "WP-ELEC-DPND-QY": 2,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-ID": 102,
+          "WP-ACTL-DPND-QY": 1
+        },
+        {
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL003",
+          "WP-ELEC-CV-CAT-ID": 103,
+          "WP-ELEC-DPND-QY": 0,
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL004",
+          "WP-ACTL-CV-CAT-ID": 104,
+          "WP-ACTL-DPND-QY": 3
+        }
+      ],
+
+      "WS-PrsnCv-Ct": 2,
+      "WS-PrsnCv": [
+        {
+          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-ID": 201,
+          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-ID": 301,
+          "WP-ELEC-CV-AT": 1000.0,
+          "WP-ELEC-CV-INCR-QY": 1,
+          "WP-ACTL-CV-LBL-CD": "CV002",
+          "WP-ACTL-CV-ID": 202,
+          "WP-ACTL-NTWR-LBL-CD": "NTWR2",
+          "WP-ACTL-NTWR-ID": 302,
+          "WP-ACTL-CV-AT": 2000.0,
+          "WP-ACTL-CV-INCR-QY": 2,
+          "WP-CARR-PRCS-ID": 401,
+          "WP-ACTL-CV-INCR-RT": 0.123456,
+          "WP-ELEC-CV-INCR-RT": 0.654321
+        }
+      ],
+
+      "WS-ActlPr-Ct": 2,
+      "WS-ActlPr": [
+        {
+          "WP-ACTL-PRT-PR-AT": 500.0,
+          "WP-ACTL-PR-AT": 250.0
+        },
+        {
+          "WP-ACTL-PRT-PR-AT": 600.0,
+          "WP-ACTL-PR-AT": 300.0
+        }
+      ],
+
+      "WS-PrsnSASrc-Ct": 2,
+      "WS-PrsnSASrc": [
+        {
+          "WP-SRC-ID": 501,
+          "WP-ELEC-ENRLPRDSRC-AT": 1200.0,
+          "WP-ACTL-ENRLPRDSRC-AT": 1300.0,
+          "WP-ELEC-PAYPRD-SRC-AT": 100.0,
+          "WP-ACTL-PAYPRD-SRC-AT": 110.0,
+          "WP-SRC-DSPL-SQ": 1,
+          "WP-SRC-FREQ-CD": "M1",
+          "WP-AT-ELEC-TYPE-CD": "T1",
+          "WP-SYST-ENRLPRDSRC-AT": 1400.0,
+          "WP-CHG-ENRLPRDSRC-CD": "N",
+          "WP-SYST-PAYPRDSRC-AT": 120.0,
+          "WP-CHG-PAYPRDSRC-CD": "N",
+          "WP-ELEC-RMN-PRD-AT": 0.00001,
+          "WP-ACTL-RMN-PRD-AT": 0.00002,
+          "WP-SYST-RMN-PRD-AT": 0.00003,
+          "WP-CHG-RMN-PRD-CD": "N",
+          "WP-ELEC-YTD-CTRB-AT": 0.0,
+          "WP-ACTL-YTD-CTRB-AT": 0.0,
+          "WP-SYST-YTD-CTRB-AT": 0.0,
+          "WP-CHG-YTD-CTRB-CD": "N"
+        }
+      ]
+    }
+  ]
+}
