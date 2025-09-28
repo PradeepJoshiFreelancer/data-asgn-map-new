@@ -9,7 +9,9 @@ interface WelcomePageProps {
 
 const WelcomePage: React.FC<WelcomePageProps> = ({ plans }) => {
   const navigate = useNavigate();
-
+  if (!plans || plans.length === 0) {
+    navigate("/");
+  }
   return (
     <Card className="w-[85vw] min-h-[60vh] mx-auto my-8 p-8 flex flex-col">
       <h1 className="mb-6 text-3xl font-semibold">Welcome</h1>

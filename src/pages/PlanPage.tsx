@@ -14,6 +14,10 @@ const PlanPage: React.FC<PlanPageProps> = ({ plans }) => {
   const { planId } = useParams<{ planId: string }>();
   const navigate = useNavigate();
 
+  if (!plans || plans.length === 0) {
+    navigate("/");
+  }
+
   const plan = plans.find((p) => p.id === planId);
 
   const [selectedTrnsIndex, setSelectedTrnsIndex] = useState(0);
