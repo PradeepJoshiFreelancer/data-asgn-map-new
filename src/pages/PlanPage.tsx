@@ -114,7 +114,7 @@ const PlanPage: React.FC<PlanPageProps> = ({ plans }) => {
 
   return (
     <div className="p-4">
-      <Button onClick={handleBack} className="m-4 ml-9 ">
+      <Button onClick={handleBack} className="ml-14 ">
         &larr; Back
       </Button>
       <Card className="w-[85vw] mx-auto my-10 p-6 flex flex-col">
@@ -219,7 +219,6 @@ const PlanPage: React.FC<PlanPageProps> = ({ plans }) => {
               data={sortedAssignments}
               currentInstanceIndex={selectedJsonIndex}
               setCurrentInstanceIndex={setSelectedJsonIndex}
-              onBack={handleBack}
             />
           )}
         </div>

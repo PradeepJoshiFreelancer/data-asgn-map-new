@@ -170,10 +170,10 @@
       "WS-CvCat-Ct": 2,
       "WS-CvCat": [
         {
-          "WP-ELEC-CV-CAT-LBL-CD": "LBL001",
+          "WP-ELEC-CV-CAT-LBL-CD": "LBL002",
           "WP-ELEC-CV-CAT-ID": 101,
           "WP-ELEC-DPND-QY": 2,
-          "WP-ACTL-CV-CAT-LBL-CD": "LBL002",
+          "WP-ACTL-CV-CAT-LBL-CD": "LBL003",
           "WP-ACTL-CV-CAT-ID": 102,
           "WP-ACTL-DPND-QY": 1
         },
@@ -190,9 +190,9 @@
       "WS-PrsnCv-Ct": 2,
       "WS-PrsnCv": [
         {
-          "WP-ELEC-CV-LBL-CD": "CV001",
+          "WP-ELEC-CV-LBL-CD": "CV002",
           "WP-ELEC-CV-ID": 201,
-          "WP-ELEC-NTWR-LBL-CD": "NTWR1",
+          "WP-ELEC-NTWR-LBL-CD": "NTWR3",
           "WP-ELEC-NTWR-ID": 301,
           "WP-ELEC-CV-AT": 1000.0,
           "WP-ELEC-CV-INCR-QY": 1,
