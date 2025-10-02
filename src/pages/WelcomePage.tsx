@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import type { PlanNode } from "../util/types";
 import Card from "../components/Card";
+import LottieFiles from "../components/LottieFiles";
 
 interface WelcomePageProps {
   plans: PlanNode[];
@@ -9,12 +10,15 @@ interface WelcomePageProps {
 
 const WelcomePage: React.FC<WelcomePageProps> = ({ plans }) => {
   const navigate = useNavigate();
-  if (!plans || plans.length === 0) {
-    navigate("/");
-  }
+  const hasPlans = plans && plans.length > 0;
   return (
-    <Card className="w-[85vw] min-h-[60vh] mx-auto my-8 p-8 flex flex-col">
-      <h1 className="mb-6 text-3xl font-semibold">Welcome</h1>
+    <Card>
+      {!hasPlans && (
+        <div className="mb-6 text-center flex justify-center items-center">
+          <LottieFiles src="/welcomePanda.json" height={300} width={300} />
+          <LottieFiles src="/welcomeText.json" height={400} width={400} />
+        </div>
+      )}
       <div className="grid grid-cols-3 gap-4">
         {plans.map(({ id, name }) => (
           <div

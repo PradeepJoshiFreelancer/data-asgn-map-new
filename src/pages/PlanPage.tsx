@@ -117,11 +117,11 @@ const PlanPage: React.FC<PlanPageProps> = ({ plans }) => {
   };
 
   return (
-    <div className="p-4">
+    <div>
       <Button onClick={handleBack} className="ml-14 ">
         &larr; Back
       </Button>
-      <Card className="w-[85vw] mx-auto my-10 p-6 flex flex-col">
+      <Card>
         <h2 className="text-2xl font-semibold mb-6">
           {plan.name} - Transactions
         </h2>

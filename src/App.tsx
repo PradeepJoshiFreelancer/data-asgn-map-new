@@ -5,6 +5,8 @@ import type { DataAssignment, PlanNode } from "./util/types";
 import WelcomePage from "./pages/WelcomePage";
 import PlanPage from "./pages/PlanPage";
 import Navbar from "./components/Navbar";
+import LottieFiles from "./components/LottieFiles";
+import Card from "./components/Card";
 
 const App: React.FC = () => {
   const [formattedData, setFormattedData] = useState<PlanNode[]>([]);
@@ -53,8 +55,61 @@ const App: React.FC = () => {
     reader.readAsText(file);
   };
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error};</div>;
+  if (loading)
+    return (
+      <div>
+        <Navbar />
+        <div className="flex justify-center items-center my-6">
+          <label>
+            <input
+              type="file"
+              accept=".json,application/json"
+              className="hidden"
+              onChange={handleFileChange}
+              id="json-upload"
+            />
+            <button
+              onClick={() => document.getElementById("json-upload")?.click()}
+              className="bg-blue-400 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 text-white font-semibold py-2 px-4 rounded"
+            >
+              Load JSON File
+            </button>
+          </label>
+        </div>
+        <Card>
+          <LottieFiles src="/loading.json" />
+        </Card>
+      </div>
+    );
+  if (error)
+    return (
+      <div>
+        <Navbar />
+        <div className="flex justify-center items-center my-6">
+          <label>
+            <input
+              type="file"
+              accept=".json,application/json"
+              className="hidden"
+              onChange={handleFileChange}
+              id="json-upload"
+            />
+            <button
+              onClick={() => document.getElementById("json-upload")?.click()}
+              className="bg-blue-400 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 text-white font-semibold py-2 px-4 rounded"
+            >
+              Load JSON File
+            </button>
+          </label>
+        </div>
+        <Card>
+          <p className="w-full text-center text-red-500">
+            Unable to load the file, please with correct file!
+          </p>
+          <LottieFiles src="/error.json" height={300} width={300} />
+        </Card>
+      </div>
+    );
 
   return (
     <>

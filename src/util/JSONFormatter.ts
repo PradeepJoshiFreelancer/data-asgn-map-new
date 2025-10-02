@@ -8,9 +8,11 @@ export function groupAssignments(
   dataAssignments.forEach((instance) => {
     const planId = String(instance["WS-PLAN-ID"]);
     const planName = instance["WS-PLAN-LDSC-TX"];
+
     const trnsId = String(instance["WS-TRNS-ID"]);
     const trnsName = instance["WS-TRNS-LDSC-TX"] || `Transaction ${trnsId}`;
     const trnsType = instance["WS-TRNS-TYPE"] || `Transaction ${trnsId}`;
+
     const cntxId = String(instance["WS-CNTX-ID"]);
 
     if (!planMap[planId]) {
@@ -21,6 +23,7 @@ export function groupAssignments(
         trnsMap: {},
       };
     }
+
     const plan = planMap[planId];
 
     if (!plan.trnsMap[trnsId]) {
@@ -29,30 +32,33 @@ export function groupAssignments(
         name: trnsName,
         trnsType,
         context: [],
-        cntxMap: {},
+        _lastCntxId: null, // for tracking within this trnsId
       };
       plan.trnsDetails.push(plan.trnsMap[trnsId]);
     }
+
     const trns = plan.trnsMap[trnsId];
 
-    if (!trns.cntxMap[cntxId]) {
-      trns.cntxMap[cntxId] = {
+    // If this is the first or cntxId has changed, create new context group
+    if (trns._lastCntxId !== cntxId) {
+      trns.context.push({
         name: cntxId,
         dataAssignments: [],
-      };
-      trns.context.push(trns.cntxMap[cntxId]);
+      });
+      trns._lastCntxId = cntxId;
     }
-    trns.cntxMap[cntxId].dataAssignments.push(instance);
+    // Push dataAssignment to current context group
+    trns.context[trns.context.length - 1].dataAssignments.push(instance);
   });
 
-  // Clean up maps before returning
+  // Clean up helper properties before returning
   Object.values(planMap).forEach((plan) => {
     plan.trnsDetails.forEach((trns: any) => {
-      delete trns.cntxMap;
+      delete trns._lastCntxId;
+      // No cntxMap needed anymore
     });
     delete plan.trnsMap;
   });
-  // console.log("formatted data:", JSON.stringify(planMap));
 
   return Object.values(planMap) as PlanNode[];
 }

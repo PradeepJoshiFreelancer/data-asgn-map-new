@@ -13,7 +13,7 @@ const Card: React.FC<CardProps> = ({
 }) => {
   return (
     <div
-      className={`border rounded-xl shadow-lg bg-white w-full max-w-7xl mx-auto p-8 ${animationClass} ${className}`}
+      className={`className="w-[85vw] min-h-[60vh] mx-auto my-8 p-8 flex flex-col border rounded-xl shadow-lg bg-white w-full max-w-7xl ${animationClass} ${className}`}
     >
       {children}
     </div>
